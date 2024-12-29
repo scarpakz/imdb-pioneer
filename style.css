@@ -2,12 +2,24 @@
     margin: 0;
     padding: 0;
 }
+body {
+    color: #fff;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background: rgb(94,94,175);
+    background: radial-gradient(circle, rgba(94,94,175,1) 4%, rgba(0,0,0,1) 76%);
+}
+
+.pioneer-imdb-container {
+    margin-top: 150px;
+}
 
 /* SEARCH */
 .pioneer-search-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 60px;
 }
 .pioneer-search-container .input-group {
     display: flex;
@@ -17,4 +29,9 @@
 }
 .pioneer-search-container input {
     max-width: 600px;
+}
+
+/* CARDS */
+.pioneer-card-container {
+    margin: 20px 0;
 }
