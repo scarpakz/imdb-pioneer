@@ -4,8 +4,6 @@
 }
 body {
     color: #fff;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
     background: rgb(94,94,175);
     background: radial-gradient(circle, rgba(94,94,175,1) 4%, rgba(0,0,0,1) 76%);
 }
@@ -34,4 +32,21 @@ body {
 /* CARDS */
 .pioneer-card-container {
     margin: 20px 0;
+}
+
+/* START MOVIE DETAIL CSS */
+.pioneer-detail-content {
+    padding: 50px 0;
+}
+.pioneer-detail-poster-image-group img {
+    width: 100%;
+    cursor: pointer;
+}
+.pioneer-detail-genre {
+    margin: 25px 0;
+}
+.pioneer-detail-genre span{
+    border: solid 1px #fff;
+    border-radius: 50px;
+    padding: 10px 20px;
 }
