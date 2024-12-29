@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* SEARCH */
+.pioneer-search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pioneer-search-container .input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.pioneer-search-container input {
+    max-width: 600px;
+}
